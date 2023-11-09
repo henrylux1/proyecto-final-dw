@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/estilo.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/proyectos.css" />
+
+
+
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <!-- Header -->
+			{{> header}}
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="images/henry5.jpg" alt="">
+            </div>
+            <h1>HENRY LUX</h1>
+            <h2>Estudiante de ingenieria en sistemas</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-solid fa-gamepad"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy henry lux.</span> Soy un estudiante de la facultad de ingenieria en sistemas de informacion,
+            me apasiona el desarrollo web y estoy en constante aprendizaje de nuevas tecnologias que puedan serme util
+            en mi formacion profesional.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nombres</strong>
+                            Henry Isaias
+                        </li>
+                        <li>
+                            <strong>Apellidos</strong>
+                            Lux Ordoñez
+                        </li>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            25 de abril
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            hluxo@miumg.edu.gt
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            zona 1 San Lucas Toliman, Solola
+                        </li>
+                        <li>
+                            <strong>Ocupacion</strong>
+                            <span>ESTUDIANTE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-mobile-screen"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Habilidades tecnicas -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SLQ Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Otras habilidades -->
+                <div class="col">
+                    <h3>Otras Habilidades</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Aprender</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">
+               <a href="/proyecto1">
+                <div class="proyecto">
+                    <img src="images/carritodecompra.png" alt="">
+                    <div class="overlay">
+                        <h3>dale click</h3>
+                            <p>para mas informacion</p>
+                    </div>
+                    <h3 class="citas">CARRITO DE COMPRAS</h3>
+                </div>
+               </a>
+                <a href="/proyecto2">
+                    <div class="proyecto">
+                        <img src="images/buscador de autos.png" alt="">
+                        <div class="overlay">
+                            <h3>dale click</h3>
+                            <p>para mas informacion</p>
+                        </div>
+                        <h3 class="citas">BUSCADOR DE AUTOS</h3>
+                    </div>
+                </a>
+                <a href="/proyecto3">
+                    <div class="proyecto">
+                        <img src="images/buscadordeimagenes.png" alt="">
+                        <div class="overlay">
+                            <h3>dale click</h3>
+                            <p>para mas informacion</p>
+                        </div>
+                        <h3 class="citas">BUSCADOR DE IMAGENES</h3>
+                    </div>
+                </a>
+                <a href="/proyecto4">
+                    <div class="proyecto">
+                        <img src="images/administradordecitas.png" alt="">
+                        <div class="overlay">
+                            <h3>dale click</h3>
+                            <p>para mas informacion</p>
+                        </div>
+                        <h3 class="citas">ADMINISTRADOR DE CITAS</h3>
+                    </div>
+                </a>
+                <a href="/proyecto5">
+                    <div class="proyecto">
+                        <img src="images/gastosemanal.png" alt="">
+                        <div class="overlay">
+                            <h3>dale click</h3>
+                            <p>para mas informacion</p>
+                        </div>
+                        <h3 class="citas">CALCULARDOR DE GASTOS</h3>
+                    </div>
+                </a>
+                <a href="/proyecto6">
+                    <div class="proyecto">
+                        <img src="images/restserver.png" alt="">
+                        <div class="overlay">
+                            <h3>dale click</h3>
+                            <p>para mas informacion</p>
+                        </div>
+                        <h3 class="citas">REST SERVER</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion2.jpg.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Zona 1 San Lucas Toliman, Solola
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: hluxo@miumg.edu.gt
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+			{{> footer}}
+</body>
+</html>
